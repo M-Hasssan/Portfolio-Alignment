@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: hassan;
+    src: url(./Poppins-ExtraBold.ttf);
+}
+
+#mainimage {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.name {
+    position: absolute;
+    top: 34.5vh;
+    left: 27.5vw;
+    font-size: 50px;
+    font-weight: bolder;
+    font-stretch: expanded;
+    font-family:hassan;
+    color: #4070f4;
+    background-color: white;
+    padding-left: 0;
+}
+
+#profile {
+    position: absolute;
+    top: 25vh;
+    left: 49vw;
+    height:52vh;
+    width: 60vh;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+
+    
+}
+
+.giticon {
+    height: 17px;
+    position: absolute;
+    top: 82.5vh;
+    left: 25vw;
+    background-color: white;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+
+
